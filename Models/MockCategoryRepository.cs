@@ -2,9 +2,9 @@
 
 namespace BethanyPieShop.Models
 {
-    public class MockCatergoryRepository : ICategoryRepository
+    public class MockCategoryRepository : ICategoryRepository
     {
-        public IEnumerable<Category> AllCatergories =>
+        public IEnumerable<Category> AllCategories =>
             new List<Category>
             {
                     new Category{CategoryId=1, CategoryName="Fruit pies", Description="All-fruity pies"},
