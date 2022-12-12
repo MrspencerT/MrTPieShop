@@ -1,5 +1,5 @@
 using BethanyPieShop.Models;
-
+//custom scope to di container
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<ICategoryRepository, MockCategoryRepository>();
 builder.Services.AddScoped<IPieRepository, MockPieRepository>();
