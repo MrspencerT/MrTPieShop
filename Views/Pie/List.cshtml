@@ -1,12 +1,5 @@
-﻿@model BethanyPieShop.ViewModels.PieListViewModel
+﻿
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width"/>
-        <title>Bethany's Pie Shop</title>
-    </head>
-    <body>
         <h1>@Model.CurrentCategory</h1>
     @foreach(var pie in Model.Pies)
     {
@@ -16,5 +9,4 @@
             <h4>@pie.Category.CategoryName</h4>
         </div>
     }
-</body>
-</html>
+   
