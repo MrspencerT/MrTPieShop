@@ -26,3 +26,5 @@ F:\codingFolder\CFolder\PieShop\BethanyPieShop\BethanyPieShop\obj\Debug\net6.0\B
 F:\codingFolder\CFolder\PieShop\BethanyPieShop\BethanyPieShop\obj\Debug\net6.0\ref\BethanyPieShop.dll
 F:\codingFolder\CFolder\PieShop\BethanyPieShop\BethanyPieShop\obj\Debug\net6.0\BethanyPieShop.RazorAssemblyInfo.cache
 F:\codingFolder\CFolder\PieShop\BethanyPieShop\BethanyPieShop\obj\Debug\net6.0\BethanyPieShop.RazorAssemblyInfo.cs
+F:\codingFolder\CFolder\PieShop\BethanyPieShop\BethanyPieShop\bin\Debug\net6.0\libman.json
+F:\codingFolder\CFolder\PieShop\BethanyPieShop\BethanyPieShop\bin\Debug\net6.0\BethanyPieShop.staticwebassets.runtime.json
