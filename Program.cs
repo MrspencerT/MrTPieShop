@@ -25,6 +25,6 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
-app.MapDefaultControllerRoute();
+app.MapDefaultControllerRoute();//home is the controller if not it will use action
 DbInitializer.Seed(app);
 app.Run();
