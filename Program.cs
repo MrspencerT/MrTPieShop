@@ -6,8 +6,13 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IPieRepository, PieRepository>();
-builder.Services.AddControllersWithViews();
 
+builder.Services.AddScoped<IShoppingCart, ShoppingCart>(sp => ShoppingCart.GetCart(sp));
+builder.Services.AddSession();
+builder.Services.AddHttpContextAccessor();
+
+
+builder.Services.AddControllersWithViews();
 //resgistering database 
 builder.Services.AddDbContext<BethanysPieShopDbContext>(options =>
 {
@@ -19,6 +24,7 @@ builder.Services.AddDbContext<BethanysPieShopDbContext>(options =>
 var app = builder.Build();
 //looks for static files wwwroot
 app.UseStaticFiles();
+app.UseSession();
 
 if (app.Environment.IsDevelopment())
 {
