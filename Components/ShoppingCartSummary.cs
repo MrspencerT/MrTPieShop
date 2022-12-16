@@ -1,4 +1,5 @@
 ﻿using BethanyPieShop.Models;
+using BethanyPieShop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BethanyPieShop.Components

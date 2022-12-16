@@ -1,7 +1,7 @@
-﻿using BethanyPieShop.Models;
+﻿
 using Microsoft.EntityFrameworkCore;
 
-namespace BethanysPieShop.Models
+namespace BethanyPieShop.Models
 {
     public class BethanysPieShopDbContext : DbContext
     {

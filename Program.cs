@@ -1,5 +1,5 @@
 using BethanyPieShop.Models;
-using BethanysPieShop.Models;
+
 using Microsoft.EntityFrameworkCore;
 
 //custom scope to di container
