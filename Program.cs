@@ -1,9 +1,10 @@
 using BethanyPieShop.Models;
 
 using Microsoft.EntityFrameworkCore;
-
 //custom scope to di container
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllersWithViews();
+
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IPieRepository, PieRepository>();
 
@@ -12,7 +13,7 @@ builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();
 
 
-builder.Services.AddControllersWithViews();
+
 //resgistering database 
 builder.Services.AddDbContext<BethanysPieShopDbContext>(options =>
 {
