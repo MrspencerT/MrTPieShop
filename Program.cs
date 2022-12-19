@@ -1,6 +1,6 @@
 using BethanyPieShop.Models;
-
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
 //custom scope to di container
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
@@ -32,6 +32,9 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
-app.MapDefaultControllerRoute();//home is the controller if not it will use action
+app.MapControllerRoute(
+        name:"default",
+        pattern: "{controller=Home}/{action=Index}/{id?}"
+);//home is the controller if not it will use action
 DbInitializer.Seed(app);
 app.Run();

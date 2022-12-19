@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BethanyPieShop.Components
 {
-    public class ShoppingCartSummary: ViewComponent
+    public class ShoppingCartSummary : ViewComponent
     {
         private readonly IShoppingCart _shoppingCart;
         public ShoppingCartSummary(IShoppingCart shoppingCart)
@@ -14,8 +14,7 @@ namespace BethanyPieShop.Components
 
         public IViewComponentResult Invoke()
         {
-            var items = new List<ShoppingCartItem>() { new ShoppingCartItem(), new ShoppingCartItem() };
-
+            var items = _shoppingCart.GetShoppingCartItems();
             //var items = _shoppingCart.GetShoppingCartItems();
             _shoppingCart.ShoppingCartItems = items;
 
