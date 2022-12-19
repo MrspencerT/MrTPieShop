@@ -59,7 +59,7 @@ namespace BethanyPieShop.Models
                     _bethanysPieShopDbContext.ShoppingCartItems.SingleOrDefault(
                         s => s.Pie.PieId == pie.PieId && s.ShoppingCartId == ShoppingCartId);
 
-            var localAmount = 0;
+            var localAmount = 0 ;
 
             if (shoppingCartItem != null)
             {
