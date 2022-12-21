@@ -273,10 +273,6 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Id": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\_maps.scss",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_maps.scss"
-    },
-    {
       "Id": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_mixins.scss"
     },
@@ -409,10 +405,6 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Id": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss"
-    },
-    {
       "Id": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
@@ -451,10 +443,6 @@
     {
       "Id": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss"
-    },
-    {
-      "Id": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_banner.scss",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_banner.scss"
     },
     {
       "Id": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",

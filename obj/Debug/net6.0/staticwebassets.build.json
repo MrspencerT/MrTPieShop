@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "19PTCTppiERgN6T9+CXpvFPO4mBGaPuESi/b3Cpj9EU=",
+  "Hash": "TvIpR2nuJxOBGJvZvj96hAax13yhOdIIWAf2p4Kmoec=",
   "Source": "BethanyPieShop",
   "BasePath": "_content/BethanyPieShop",
   "Mode": "Default",
@@ -1173,23 +1173,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Identity": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\_maps.scss",
-      "SourceId": "BethanyPieShop",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\",
-      "BasePath": "_content/BethanyPieShop",
-      "RelativePath": "lib/bootstrap/scss/_maps.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_maps.scss"
-    },
-    {
       "Identity": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
       "SourceId": "BethanyPieShop",
       "SourceType": "Discovered",
@@ -1751,23 +1734,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Identity": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss",
-      "SourceId": "BethanyPieShop",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\",
-      "BasePath": "_content/BethanyPieShop",
-      "RelativePath": "lib/bootstrap/scss/helpers/_color-bg.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss"
-    },
-    {
       "Identity": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "SourceId": "BethanyPieShop",
       "SourceType": "Discovered",
@@ -1936,23 +1902,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss"
-    },
-    {
-      "Identity": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_banner.scss",
-      "SourceId": "BethanyPieShop",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\",
-      "BasePath": "_content/BethanyPieShop",
-      "RelativePath": "lib/bootstrap/scss/mixins/_banner.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\mixins\\_banner.scss"
     },
     {
       "Identity": "F:\\codingFolder\\CFolder\\PieShop\\BethanyPieShop\\BethanyPieShop\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",
