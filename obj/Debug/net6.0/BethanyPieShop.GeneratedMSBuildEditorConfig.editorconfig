@@ -16,8 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\codingFolder\CFolder\PieShop\BethanyPieShop\BethanyPieShop
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/CheckoutCompletePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRDb21wbGV0ZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/CheckoutPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/Shared/_PageLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9QYWdlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Views/Contact/Index.cshtml]
