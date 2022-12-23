@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\codingFolder\CFolder\PieShop\BethanyPieShop\BethanyPieShop
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/CheckoutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -4,6 +4,7 @@ using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
 //custom scope to di container
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IPieRepository, PieRepository>();
@@ -37,5 +38,6 @@ app.MapControllerRoute(
         name:"default",
         pattern: "{controller=Home}/{action=Index}/{id?}"
 );//home is the controller if not it will use action
+app.MapRazorPages();
 DbInitializer.Seed(app);
 app.Run();
