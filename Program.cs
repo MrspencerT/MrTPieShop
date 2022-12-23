@@ -1,9 +1,14 @@
 using BethanyPieShop.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
+using System.Text.Json.Serialization;
 //custom scope to di container
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews()
+        .AddJsonOptions(options =>
+        {
+            options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        });
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IPieRepository, PieRepository>();
@@ -14,8 +19,6 @@ builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddRazorPages();
 
-
-
 //resgistering database 
 builder.Services.AddDbContext<BethanysPieShopDbContext>(options =>
 {
@@ -23,8 +26,9 @@ builder.Services.AddDbContext<BethanysPieShopDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration["ConnectionStrings:BethanysPieShopDbContextConnection"]);
 });
-
+// we have addwithviews dont need for api:builder.Services.AddControllers();  
 var app = builder.Build();
+//app.MapControllers() dont need we have controllers default for api
 //looks for static files wwwroot
 app.UseStaticFiles();
 app.UseSession();
