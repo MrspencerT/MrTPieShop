@@ -8,7 +8,7 @@ namespace BethanyPieShop.Controllers.Api
     [ApiController]
     public class SearchController : ControllerBase
     {
-        private readonly IPieRepository _pieRepository;
+        private readonly IPieRepository _pieRepository ;
         public SearchController(IPieRepository pieRepository)
         {
             _pieRepository = pieRepository;
