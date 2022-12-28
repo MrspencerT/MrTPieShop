@@ -11,7 +11,7 @@ namespace BethanyPieShop.Controllers.Api
         private readonly IPieRepository _pieRepository ;
         public SearchController(IPieRepository pieRepository)
         {
-            _pieRepository = pieRepository;
+            _pieRepository = pieRepository ;
         }
 
         [HttpGet]
