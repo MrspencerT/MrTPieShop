@@ -29,7 +29,7 @@ namespace BethanyPieShop.Controllers.Api
             return Ok(_pieRepository.AllPies.Where(p => p.PieId == id ));
         }
 
-        [HttpPost] //sending data to api with post request
+        [HttpPost] //fromBody will grab the search query with the post
         public IActionResult SearchPies([FromBody] string searchQuery)
         {
             IEnumerable<Pie> pies = new List<Pie>();
