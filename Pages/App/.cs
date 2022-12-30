@@ -1,4 +1,4 @@
-﻿using BethanysPieShop.Models;
+﻿using BethanyPieShop.Models;
 using Microsoft.AspNetCore.Components;
 
 namespace BethanysPieShop.Pages.App

@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\codingFolder\CFolder\PieShop\BethanyPieShop\BethanyPieShop
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/App/.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/App/AppLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXEFwcExheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/App/PieCard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXFBpZUNhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/App/PieCard.razor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXFBpZUNhcmQucmF6b3IucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/App/SearchBlazor.razor]
