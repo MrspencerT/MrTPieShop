@@ -16,6 +16,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\codingFolder\CFolder\PieShop\BethanyPieShop\BethanyPieShop
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/App/AppLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXEFwcExheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/App/AppRouter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXEFwcFJvdXRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/App/PieCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXFBpZUNhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/App/SearchBlazor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXFNlYXJjaEJsYXpvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/App/_imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXF9pbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/App/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/codingFolder/CFolder/PieShop/BethanyPieShop/BethanyPieShop/Pages/CheckoutCompletePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRDb21wbGV0ZVBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

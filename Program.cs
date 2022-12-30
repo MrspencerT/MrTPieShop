@@ -26,6 +26,8 @@ builder.Services.AddDbContext<BethanysPieShopDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration["ConnectionStrings:BethanysPieShopDbContextConnection"]);
 });
+
+builder.Services.AddServerSideBlazor();
 // we have addwithviews dont need for api:builder.Services.AddControllers();  
 var app = builder.Build();
 //app.MapControllers() dont need we have controllers default for api
@@ -43,5 +45,7 @@ app.MapControllerRoute(
         pattern: "{controller=Home}/{action=Index}/{id?}"
 );//home is the controller if not it will use action
 app.MapRazorPages();
+app.MapBlazorHub();
+app.MapFallbackToPage("/app/{*catchall}", "/App/Index");
 DbInitializer.Seed(app);
 app.Run();
