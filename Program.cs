@@ -34,6 +34,7 @@ var app = builder.Build();
 //looks for static files wwwroot
 app.UseStaticFiles();
 app.UseSession();
+app.UseAuthentication();
 
 if (app.Environment.IsDevelopment())
 {
